@@ -1,0 +1,11 @@
+﻿var obj1 = { name: "Person 1", age:5 };
+var obj2 = { age:5, name: "Person 1" };
+
+
+These can be accessed by variableName.ElementName method so even if they are not sequenced they can be compared.
+
+
+console.log(obj1.age > obj1.age)
+
+
+Like that
