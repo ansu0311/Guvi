@@ -1,0 +1,59 @@
+body {
+  background: linear-gradient(
+    130deg,
+    hsl(0, 100%, 20%) 0%,
+    hsl(357.59, 100%, 19.87%) 8.1%,
+    hsl(355.21, 100%, 19.51%) 15.5%,
+    hsl(352.79, 100%, 18.94%) 22.5%,
+    hsl(350.24, 100%, 18.17%) 29%,
+    hsl(347.48, 100%, 17.23%) 35.3%,
+    hsl(344.41, 100%, 16.12%) 41.2%,
+    hsl(340.88, 100%, 14.86%) 47.1%,
+    hsl(336.66, 100%, 13.46%) 52.9%,
+    hsl(331.39, 100%, 11.92%) 58.8%,
+    hsl(324.44, 100%, 10.25%) 64.7%,
+    hsl(314.59, 100%, 8.47%) 71%,
+    hsl(299.08, 100%, 6.68%) 77.5%,
+    hsl(280.15, 100%, 6.89%) 84.5%,
+    hsl(262.56, 100%, 7.01%) 91.9%,
+    hsl(251.67, 100%, 7.06%) 100%
+  );
+}
+.vertical-center {
+  min-height: 100%; /* Fallback for browsers do NOT support vh unit */
+  min-height: 100vh; /* These two lines are counted as one :-)       */
+
+  display: flex;
+  align-items: center;
+}
+.horizontal-center{
+    text-align: center;
+}
+.row {
+  background-color:#080808;
+  color: aliceblue;
+  min-width: 100%;
+  margin: auto;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.customButton{
+    width: 40%;
+    margin: 15px;
+}
+img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: 50%;
+}
+.vertical{
+    margin-top: 3px;
+    margin-bottom: 15px;
+}
+#food{
+    width: 100%;
+}
+.container{
+    padding-top: 15px;
+}
